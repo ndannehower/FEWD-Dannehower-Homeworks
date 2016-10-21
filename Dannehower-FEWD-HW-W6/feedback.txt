@@ -1,0 +1,22 @@
+Create an array with the following values: "NYC", "SF", "LA", "ATX", "SYD"; use the array to add values to the <select> menu by using a for loop in JavaScript (don't update the HTML to do this!)
+ - Good!
+When the user changes the input of the drop-down, update the background image based on what they selected
+ - Good!
+Use $.append() in your iteration on the drop-down menu
+ - Good!
+Use the $.attr() function to update html classes
+ - You can use .attr("class") to set a class, but .css() works just as well
+Get the value of user input using $.val()
+ - Good!
+Use the $.change event handler to capture user actions
+ - Good!
+Use if/else if/else conditionals to control the flow of your application
+ - Good!
+Display your pseudocode as Javascript comments
+ - Good!
+
+Additional Comments:
+
+- Good job! All the functionality is there and your javascript is well indented.
+
+- The 'option' html you're creating isn't quite formatted correctly. You're initializing it with "<option></option>" and then appending a second set of 'option' tags. If you check the resulting HTML you'll see it looks like "<option><option>value</option></option>"
